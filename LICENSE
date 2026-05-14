@@ -1,0 +1,40 @@
+nextup — Proprietary Software License
+
+Copyright (c) 2026 nextup. All rights reserved.
+
+This software and its compiled distributions (the "Software") are proprietary.
+By installing or using the Software, you agree to the following terms:
+
+1. Use. You are granted a non-exclusive, non-transferable, revocable license
+   to install and run the Software for your own internal experimentation and
+   research purposes. Commercial use within a single organization is
+   permitted.
+
+2. Restrictions. You may NOT:
+   (a) decompile, disassemble, reverse-engineer, or otherwise attempt to
+       derive the source code, algorithms, or internal structure of the
+       Software, except to the limited extent expressly permitted by
+       applicable law notwithstanding this limitation;
+   (b) redistribute, sublicense, resell, rent, lease, or host the Software
+       as a service to third parties;
+   (c) remove or alter any copyright, trademark, or other proprietary notices
+       contained in the Software;
+   (d) use the Software to build, train, or evaluate a competing product.
+
+3. No source. The Software is distributed only in compiled binary form on
+   PyPI. No source-code license is granted under this agreement.
+
+4. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+5. Limitation of liability. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE
+   FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN CONNECTION
+   WITH THE SOFTWARE OR ITS USE.
+
+6. Termination. This license terminates automatically if you breach any of
+   its terms. On termination you must delete all copies of the Software.
+
+7. Governing law. This license is governed by the laws of England and Wales.
+
+Contact: see project metadata on PyPI.
