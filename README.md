@@ -2,6 +2,8 @@
 
 **Drop your experiments in, get the next batch to run. Chemistry, chemical engineering, biology — whatever you're optimizing.**
 
+[中文 README](README.zh.md)
+
 ```python
 from nextup_lab import suggest
 
