@@ -37,6 +37,13 @@ One CSV. One column is what you measure (yield, conversion, EC50, …). Tested r
 
 Column types are auto-detected; you don't have to label anything.
 
+### Maximizing vs minimizing
+
+`suggest()` always **maximizes** the objective column. If your metric is "lower is better" (IC50, EC50, Kd, Ki, MIC, error, cost, runtime…), convert it first:
+
+- **Potency assays** (IC50 / EC50 / Kd / Ki / MIC in molar units): use `pX = -log10(X)`. Standard pharma transform; the resulting `pIC50` etc. is well-behaved and bigger = better.
+- **Anything else**: negate it (`df["score"] = -df["error"]`), or pre-compute whatever transform makes the column "bigger = better".
+
 ## Quickstart
 
 ```python

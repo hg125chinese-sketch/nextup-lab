@@ -37,6 +37,13 @@ next_batch = suggest(history, candidates, objective="yield", k=4)
 
 列的类型会自动识别,不需要手工标注。
 
+### 最大化 vs 最小化
+
+`suggest()` 总是**最大化**目标列。如果你的指标是"越小越好"(IC50、EC50、Kd、Ki、MIC、误差、成本、运行时间……),先转一下:
+
+- **浓度类指标**(IC50 / EC50 / Kd / Ki / MIC,摩尔单位):用 `pX = -log10(X)`。标准药学变换,转完`pIC50` 这种数值正态分布,越大越好。
+- **其他**:直接取负(`df["score"] = -df["error"]`),或者随便做个让"越大越好"的变换。
+
 ## 快速上手
 
 ```python
